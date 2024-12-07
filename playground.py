@@ -22,7 +22,7 @@ def p(info):
 # Read the docs at https://appwrite.io/docs to get more information
 # about API keys and Project IDs
 client = Client()
-client.set_endpoint("http://YOUR_HOST/v1")
+client.set_endpoint("https://cloud.appwrite.io/v1")
 client.set_project("YOUR_PROJECT_ID")
 client.set_key("YOU_API_KEY")
 client.set_self_signed()
